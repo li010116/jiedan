@@ -1,0 +1,80 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { randomUUID } from 'node:crypto';
+import { createApp } from '../server/app.js';
+import { createAdmin } from '../server/auth.js';
+
+test('business lifecycle: conversion, tasks, quote, contract, receipts and reporting', async () => {
+  const app = createApp({ databasePath: ':memory:', testMode: true });
+  await createAdmin(app.locals.db, 'business@example.com', 'test-password-only-42!');
+  const server = await new Promise(resolve => { const s = app.listen(0, '127.0.0.1', () => resolve(s)); });
+  let cookie = '';
+  const call = async (path, method = 'GET', body) => {
+    const response = await fetch(`http://127.0.0.1:${server.address().port}/api/${path}`, {
+      method, headers: { Origin: 'http://localhost:4173', ...(cookie ? { Cookie: cookie } : {}), 'Content-Type': 'application/json' }, body: body === undefined ? undefined : JSON.stringify(body),
+    });
+    const data = await response.json(); return { status: response.status, data, headers: response.headers };
+  };
+  const save = (table, body, id) => call(`admin/business/${table}${id ? '/' + id : ''}`, id ? 'PUT' : 'POST', body);
+  try {
+    assert.equal((await call('admin/business')).status, 401);
+    assert.equal((await save('clients', {})).status, 401);
+    const login = await call('auth/login', 'POST', { email: 'business@example.com', password: 'test-password-only-42!' });
+    cookie = login.headers.get('set-cookie').split(';')[0];
+    const inquiry = await call('inquiries', 'POST', { name: '流程测试客户', contact: 'test@example.com', service: '网站开发', budget: '5,000–15,000 元', description: '建设可管理内容的网站与业务后台', website: '', idempotencyKey: randomUUID() });
+    assert.equal(inquiry.status, 201);
+    const conversion = await call(`admin/inquiries/${inquiry.data.inquiry.id}/convert`, 'POST', {});
+    assert.equal(conversion.status, 201);
+    const repeated = await call(`admin/inquiries/${inquiry.data.inquiry.id}/convert`, 'POST', {});
+    assert.equal(repeated.data.engagement.id, conversion.data.engagement.id);
+    assert.equal(repeated.data.client.id, conversion.data.client.id);
+    const engagement_id = conversion.data.engagement.id;
+    const task = { engagement_id, title: '验收交付', status: 'todo', priority: 'high', due_date: '2020-01-01', notes: '检查真实流程' };
+    assert.equal((await save('tasks', { ...task, engagement_id: 9999 })).status, 400);
+    assert.equal((await save('tasks', { ...task, due_date: '2026-02-30' })).status, 400);
+    const createdTask = await save('tasks', task);
+    assert.equal(createdTask.status, 201);
+    assert.equal((await call('admin/business')).data.summary.overdueTasks, 1);
+    assert.equal((await save('tasks', { ...task, status: 'done' }, createdTask.data.item.id)).status, 200);
+    const quote = { engagement_id, title: '网站开发报价', status: 'draft', valid_until: '2027-01-01', notes: '分阶段收款', items: [{ title: '开发', quantity: 2, unit_cents: 500050 }, { title: '部署', quantity: 1, unit_cents: 99900 }] };
+    assert.equal((await save('quotes', { ...quote, items: [{ title: '错误金额', quantity: 1, unit_cents: 0.1 }] })).status, 400);
+    assert.equal((await save('quotes', { ...quote, items: [{ title: '溢出', quantity: 10000, unit_cents: 10000000000 }] })).status, 400);
+    const createdQuote = await save('quotes', quote); const quoteId = createdQuote.data.item.id;
+    assert.equal(createdQuote.data.item.amount_cents, 1100000);
+    assert.equal((await call(`admin/business/quotes/${quoteId}/contract`, 'POST', {})).status, 409);
+    await save('quotes', { ...quote, status: 'accepted' }, quoteId);
+    const createdContract = await call(`admin/business/quotes/${quoteId}/contract`, 'POST', {});
+    assert.equal(createdContract.status, 201);
+    const contract = createdContract.data.item; const contract_id = contract.id;
+    assert.equal((await call(`admin/business/quotes/${quoteId}/contract`, 'POST', {})).data.item.id, contract_id);
+    assert.equal((await save('quotes', quote, quoteId)).status, 409);
+    const payment = { contract_id, title: '定金', amount_cents: 300000, status: 'pending', due_date: '2026-10-20', paid_date: '', method: '转账', reference: '', notes: '' };
+    assert.equal((await save('payments', payment)).status, 400);
+    assert.equal((await save('contracts', { ...contract, status: 'signed' }, contract_id)).status, 400);
+    const signed = { ...contract, status: 'signed', signed_date: '2026-10-20' };
+    assert.equal((await save('contracts', signed, contract_id)).status, 200);
+    const deposit = await save('payments', payment); assert.equal(deposit.status, 201);
+    assert.equal((await save('payments', { ...payment, amount_cents: 800001 })).status, 409);
+    assert.equal((await save('payments', { ...payment, status: 'received' }, deposit.data.item.id)).status, 400);
+    const received = { ...payment, status: 'received', paid_date: '2026-10-21' };
+    assert.equal((await save('payments', received, deposit.data.item.id)).status, 200);
+    assert.equal((await save('contracts', { ...signed, amount_cents: 200000 }, contract_id)).status, 409);
+    assert.equal((await save('contracts', { ...signed, status: 'cancelled' }, contract_id)).status, 409);
+    const balance = await save('payments', { ...payment, title: '尾款', amount_cents: 800000 });
+    assert.equal(balance.status, 201);
+    const snapshot = (await call('admin/business')).data;
+    assert.equal(snapshot.clients.length, 1);
+    assert.equal(snapshot.engagements.length, 1);
+    assert.equal(snapshot.summary.contracted, 1100000);
+    assert.equal(snapshot.summary.received, 300000);
+    assert.equal(snapshot.summary.outstanding, 800000);
+    assert.equal(snapshot.summary.overdueTasks, 0);
+    assert.equal(snapshot.summary.newInquiries, 0);
+    assert.ok(snapshot.events.length > 5);
+    await save('payments', { ...payment, title: '尾款', amount_cents: 800000, status: 'void' }, balance.data.item.id);
+    assert.equal((await save('payments', { ...payment, title: '新尾款', amount_cents: 800000 })).status, 201);
+    assert.equal((await save('clients', { name: '归档测试', contact: 'test', company: '', status: 'archived', notes: '', next_date: '' })).status, 201);
+    assert.equal((await call('admin/business')).data.summary.clients, 1);
+    assert.equal(app.locals.db.prepare('PRAGMA user_version').get().user_version, 3);
+  } finally { await new Promise(resolve => { server.close(resolve); server.closeAllConnections(); }); app.locals.closeDatabase(); }
+});

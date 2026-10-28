@@ -1,0 +1,50 @@
+.biz-section{display:grid;gap:18px}
+.biz-section>.admin-text-link{justify-self:start}
+.project-overview{display:grid;gap:22px}
+.project-back{justify-self:start}
+.project-summary { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding: 28px; }
+.project-eyebrow { font-size: 12px; color: var(--admin-text-muted); letter-spacing: 1.5px; margin-bottom: 12px; }
+.project-summary h2 { font-size: 27px; line-height: 1.5; overflow-wrap: anywhere; }
+.project-summary-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-top: 16px; font-size: 12px; color: var(--admin-text-secondary); }
+.project-summary-meta > span { display: inline-flex; align-items: center; gap: 7px; }
+.project-summary > .admin-button { flex-shrink: 0; }
+.project-money-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }
+.project-money { text-align: left; padding: 23px; font: inherit; min-width: 0; }
+.project-money > span { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--admin-text-secondary); }
+.project-money strong { display: block; font-size: clamp(22px,2.5vw,32px); font-weight: 550; margin-top: 15px; overflow-wrap: anywhere; }
+.project-context-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.project-context { padding: 25px; min-width: 0; }
+.project-overview h3 { font-size: 16px; font-weight: 550; }
+.project-description { font-size: 14px; line-height: 1.9; color: var(--admin-text-secondary); white-space: pre-wrap; overflow-wrap: anywhere; margin-top: 18px; }
+.project-timestamp { font-size: 12px; color: var(--admin-text-muted); line-height: 1.8; margin-top: 20px; }
+.project-block-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.project-block-heading h3 > span { font-size: 12px; color: var(--admin-text-muted); margin-left: 10px; }
+.project-block-heading p { font-size: 12px; color: var(--admin-text-muted); margin-top: 7px; }
+.project-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.project-client { margin: 18px 0 0; display: grid; gap: 12px; }
+.project-client > div { display: grid; grid-template-columns: 80px minmax(0,1fr); gap: 14px; font-size: 12px; line-height: 1.7; }
+.project-client dt { color: var(--admin-text-muted); }
+.project-client dd { margin: 0; overflow-wrap: anywhere; }
+.project-muted { color: var(--admin-text-muted); font-size: 14px; margin-top: 18px; }
+.project-records { padding: 25px; min-width: 0; }
+.project-progress { display: flex; align-items: center; gap: 14px; margin: 22px 0 12px; font-size: 12px; color: var(--admin-text-secondary); }
+.project-progress progress { appearance: none; border: 0; border-radius: 999px; overflow: hidden; background: var(--admin-surface-selected); height: 6px; width: 100%; accent-color: var(--admin-accent); }
+.project-progress progress::-webkit-progress-bar { background: var(--admin-surface-selected); border-radius: 999px; }
+.project-progress progress::-webkit-progress-value { background: var(--admin-accent); border-radius: 999px; }
+.project-progress progress::-moz-progress-bar { background: var(--admin-accent); border-radius: 999px; }
+.project-record-list { list-style: none; padding: 0; margin: 14px 0 0; }
+.project-record-list li + li { border-top: 1px solid var(--admin-border); }
+.project-record-list button { display: flex; align-items: center; gap: 12px; width: 100%; padding: 16px 0; background: transparent; font: inherit; text-align: left; }
+.project-record-list button > div:first-child { flex: 1; min-width: 0; }
+.project-record-list strong { font-weight: 500; font-size: 14px; line-height: 1.7; overflow-wrap: anywhere; }
+.project-record-list button > div:first-child > span { display: block; font-size: 12px; color: var(--admin-text-muted); margin-top: 5px; overflow-wrap: anywhere; }
+.project-record-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 7px; }
+.project-record-list button > svg { flex-shrink: 0; color: #7f8b72; }
+.project-list-empty { font-size: 14px; color: var(--admin-text-muted); padding: 30px 0; line-height: 1.8; }
+.project-related-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
+.project-more { margin-top: 18px; }
+.project-finance-note { font-size: 12px; line-height: 1.9; color: var(--admin-text-muted); margin-top: 18px; }
+.biz-context-bar { display: flex; align-items: center; gap: 14px; justify-content: space-between; flex-wrap: wrap; padding: 14px 18px; border: 1px solid #dfe8d5; background: #f2f7eb; border-radius: 10px; color: var(--admin-text-secondary); font-size: 12px; }
+.project-records .admin-text-link { font-size: 12px; }
+@media(max-width:1200px){.project-related-grid{grid-template-columns:1fr}.project-record-meta{flex-direction:row;align-items:center}}
+@media(max-width:640px){.project-summary{padding:22px;flex-direction:column}.project-summary h2{font-size:23px}.project-money-grid{grid-template-columns:1fr;gap:10px}.project-money{display:flex;align-items:center;justify-content:space-between;padding:18px}.project-money strong{font-size:23px;margin:0}.project-money>span{gap:12px}.project-context-grid{grid-template-columns:1fr}.project-context,.project-records{padding:20px}.project-block-heading{align-items:flex-start;flex-wrap:wrap}.project-actions{gap:14px}.project-record-meta{flex-direction:column;align-items:flex-end}.project-record-list button{gap:8px}.project-record-list strong{font-size:12px}.project-summary-meta{gap:12px}.project-overview .admin-text-link{font-size:12px}}

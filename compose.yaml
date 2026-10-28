@@ -1,0 +1,22 @@
+services:
+  studio:
+    build: .
+    ports:
+      - "127.0.0.1:3001:3001"
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3001
+      DATABASE_PATH: /app/data/mogustack.sqlite
+      PUBLIC_ORIGIN: ${DEPLOY_ORIGIN:-http://localhost:3001}
+      TRUST_PROXY: ${TRUST_PROXY:-0}
+    volumes:
+      - studio-data:/app/data
+      - studio-local:/app/.local
+      - studio-backups:/app/backups
+    restart: unless-stopped
+
+volumes:
+  studio-data:
+  studio-local:
+  studio-backups:

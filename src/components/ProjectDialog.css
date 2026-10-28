@@ -1,0 +1,486 @@
+.project-dialog {
+  box-sizing: border-box;
+  width: min(580px, 90vw);
+  max-width: none;
+  max-height: calc(100dvh - 48px);
+  margin: auto;
+  padding: 38px;
+  border: 1px solid #e8e8e4;
+  border-radius: 24px;
+  color: #171815;
+  background: #fff;
+  box-shadow: 0 28px 100px #0003;
+  overflow: auto;
+  overscroll-behavior: contain;
+  font-family: inherit;
+  text-align: left;
+}
+
+.project-dialog::backdrop {
+  background: #0a0d0acc;
+  backdrop-filter: blur(6px);
+}
+
+.project-dialog *,
+.project-dialog *::before,
+.project-dialog *::after {
+  box-sizing: border-box;
+}
+
+.project-dialog button,
+.project-dialog input,
+.project-dialog select,
+.project-dialog textarea {
+  font: inherit;
+}
+
+.project-dialog-close {
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid #e9e9e5;
+  border-radius: 50%;
+  color: #252621;
+  background: #fff;
+  cursor: pointer;
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.project-dialog-close:hover {
+  background: #f1f2ed;
+  transform: rotate(90deg);
+}
+
+.project-dialog-eyebrow {
+  margin: 0 0 13px;
+  color: #72756b;
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+}
+
+.project-dialog-heading h2 {
+  margin: 0 0 12px;
+  font-size: clamp(24px, 4.8vw, 30px);
+  line-height: 1.35;
+  font-weight: 650;
+  letter-spacing: -1px;
+  outline: none;
+}
+
+.project-dialog-heading > p:last-child {
+  margin: 0 0 28px;
+  color: #777970;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.brief-form {
+  display: grid;
+  gap: 20px;
+}
+
+.brief-services {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.brief-services legend,
+.brief-field {
+  color: #30322a;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.brief-services legend {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.brief-service-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.brief-service-option {
+  position: relative;
+  cursor: pointer;
+}
+
+.brief-service-option input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.brief-service-option span {
+  display: block;
+  padding: 9px 14px;
+  border: 1px solid #e4e5df;
+  border-radius: 100px;
+  background: #fff;
+  color: #56594f;
+  font-size: 12px;
+  line-height: 1.5;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease;
+}
+
+.brief-service-option input:checked + span {
+  border-color: #d3f36b;
+  background: #dbff75;
+  color: #1d2510;
+}
+
+.brief-service-option:hover span {
+  border-color: #adb3a0;
+}
+
+.brief-field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.brief-field {
+  display: block;
+  min-width: 0;
+}
+
+.brief-required {
+  color: #929589;
+}
+
+.brief-field input,
+.brief-field select,
+.brief-field textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin: 8px 0 0;
+  padding: 12px 13px;
+  border: 1px solid #e1e3db;
+  border-radius: 9px;
+  background: #fff;
+  color: #25271f;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 400;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.brief-field select {
+  min-height: 47px;
+  cursor: pointer;
+}
+
+.brief-field textarea {
+  min-height: 114px;
+  max-height: 280px;
+  resize: vertical;
+}
+
+.brief-field input::placeholder,
+.brief-field textarea::placeholder {
+  color: #a1a499;
+}
+
+.brief-field input:focus,
+.brief-field select:focus,
+.brief-field textarea:focus {
+  outline: none;
+  border-color: #727f53;
+  box-shadow: 0 0 0 3px #d7efab45;
+}
+
+.brief-primary-button,
+.brief-secondary-button {
+  display: inline-flex;
+  min-height: 47px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 23px;
+  border: 1px solid #191b15;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.brief-primary-button {
+  color: #fff;
+  background: #191b15;
+}
+
+.brief-primary-button:hover {
+  background: #34382c;
+  transform: translateY(-1px);
+}
+
+.brief-secondary-button {
+  border-color: #e1e3db;
+  color: #42463b;
+  background: #fff;
+}
+
+.brief-secondary-button:hover {
+  background: #f3f4ef;
+}
+
+.project-dialog button:focus-visible,
+.brief-service-option input:focus-visible + span {
+  outline: 2px solid #738b37;
+  outline-offset: 4px;
+}
+
+.brief-local-note {
+  margin: -7px 0 0;
+  color: #92958b;
+  font-size: 10px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.brief-summary-details {
+  margin: 0 0 25px;
+  border-top: 1px solid #e8e9e2;
+}
+
+.brief-summary-details > div {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  gap: 16px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e8e9e2;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.brief-summary-details dt {
+  color: #92958b;
+  font-size: 12px;
+}
+
+.brief-summary-details dd {
+  margin: 0;
+  color: #2e3227;
+  overflow-wrap: anywhere;
+}
+
+.brief-summary-details .brief-summary-description {
+  grid-template-columns: 1fr;
+  gap: 9px;
+}
+
+.brief-summary-description dd {
+  white-space: pre-wrap;
+}
+
+.brief-summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 21px;
+}
+
+.brief-summary-actions .brief-primary-button {
+  flex: 1;
+}
+
+.brief-download-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: -3px 0 17px;
+  color: #5b762e;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.brief-honeypot {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.project-dialog button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+  transform: none;
+}
+
+.brief-submit-error {
+  padding: 12px 14px;
+  margin: 0 0 18px;
+  border: 1px solid #efd9d4;
+  border-radius: 10px;
+  color: #9d3d2c;
+  background: #fff7f5;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.brief-receipt {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  background: #f3f9e8;
+  border: 1px solid #dfebc8;
+  border-radius: 13px;
+  padding: 16px 18px;
+  margin-bottom: 24px;
+  color: #4d6627;
+}
+
+.brief-receipt span {
+  display: block;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+
+.brief-receipt strong {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  overflow-wrap: anywhere;
+}
+
+.brief-new-button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  color: #73776c;
+  background: transparent;
+  font-size: 11px;
+}
+
+.brief-new-button:hover {
+  color: #171815;
+  text-decoration: underline;
+}
+
+.brief-spinner {
+  animation: brief-spin 1s linear infinite;
+}
+@keyframes brief-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-dialog {
+    width: calc(100vw - 28px);
+    max-height: calc(100dvh - 28px);
+    padding: 30px 22px 24px;
+    border-radius: 20px;
+  }
+
+  .project-dialog-close {
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .project-dialog-heading > p:last-child {
+    max-width: 95%;
+    margin-bottom: 23px;
+  }
+
+  .brief-field-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .brief-field input,
+  .brief-field select,
+  .brief-field textarea {
+    font-size: 16px;
+  }
+
+  .brief-service-option span {
+    padding: 8px 12px;
+  }
+
+  .brief-local-note {
+    font-size: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-dialog *,
+  .project-dialog *::before,
+  .project-dialog *::after {
+    transition: none;
+    animation: none;
+  }
+}
+
+/* The action bar stays visible while only the fields or summary scroll. */
+.project-dialog { width: min(640px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 0; overflow: hidden; }
+.project-dialog[open] { display: flex; flex-direction: column; }
+.project-dialog-close { z-index: 2; width: 40px; height: 40px; top: 16px; right: 16px; }
+.project-dialog-heading { flex-shrink: 0; padding: 25px 30px 18px; border-bottom: 1px solid #eceee7; }
+.project-dialog-eyebrow { padding-right: 38px; margin-bottom: 10px; font-size: 10px; }
+.brief-step-label { color: #68745a; font-size: 12px; margin: 0 0 8px; }
+.project-dialog-heading h2 { font-size: 27px; margin-bottom: 8px; }
+.project-dialog-heading > p:last-child { margin: 0; font-size: 13px; color: #69705f; line-height: 1.7; }
+.brief-form, .brief-summary { display: flex; flex-direction: column; min-height: 0; overflow: hidden; gap: 0; }
+.brief-scroll-body { overflow-y: auto; min-height: 0; overscroll-behavior: contain; scroll-padding-block: 18px; }
+.brief-form-fields { display: grid; gap: 18px; padding: 22px 30px; }
+.brief-summary-body { padding: 22px 30px; }
+.brief-action-bar { flex-shrink: 0; padding: 16px 30px 18px; border-top: 1px solid #e6e9df; background: #fff; }
+.brief-action-bar > .brief-primary-button { width: 100%; }
+.brief-action-bar .brief-local-note { margin: 10px 0 0; font-size: 12px; line-height: 1.65; color: #69705f; }
+.brief-action-bar .brief-summary-actions { margin: 0; }
+.brief-action-bar .brief-download-status { margin: 10px 0 0; }
+.brief-action-bar .brief-new-button { margin-top: 8px; font-size: 12px; }
+.brief-summary-details { margin: 0; }
+.brief-summary-details dt { color: #68715e; }
+.brief-summary-body .brief-submit-error { margin: 16px 0 0; }
+.brief-services legend, .brief-field { font-size: 13px; }
+.brief-field textarea { min-height: 98px; }
+.brief-field input::placeholder, .brief-field textarea::placeholder { color: #737b69; }
+@media (max-width: 480px) {
+  .project-dialog { width: calc(100vw - 20px); max-height: calc(100dvh - 20px); padding: 0; }
+  .project-dialog-heading { padding: 22px 20px 16px; }
+  .project-dialog-heading h2 { font-size: 24px; }
+  .project-dialog-heading > p:last-child { font-size: 12px; }
+  .project-dialog-close { top: 12px; right: 12px; }
+  .brief-form-fields, .brief-summary-body { padding: 20px; }
+  .brief-field-row { gap: 16px; }
+  .brief-action-bar { padding: 14px 20px; }
+  .brief-action-bar .brief-local-note { font-size: 11px; }
+  .brief-service-option span { padding: 9px 11px; }
+}
+@media (max-height: 550px) {
+  .project-dialog-heading { padding-top: 16px; padding-bottom: 12px; }
+  .project-dialog-eyebrow { display: none; }
+  .project-dialog-heading h2 { font-size: 22px; }
+  .brief-action-bar { padding-top: 10px; padding-bottom: 10px; }
+}

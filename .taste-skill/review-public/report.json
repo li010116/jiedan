@@ -1,0 +1,2593 @@
+{
+ "url": "http://127.0.0.1:4173/",
+ "at": "2026-10-28T10:49:56.690Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.82,
+    0.5,
+    0.38,
+    0.31
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2923,
+     "screens": 3.2,
+     "words": 157,
+     "img": 3,
+     "video": 0,
+     "canvas": 6,
+     "svg": 41,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "work-dashboard.png",
+      "work-commerce.png",
+      "work-ai.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "01",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 178,
+     "vw": 12.4,
+     "font": "Arial",
+     "weight": 700,
+     "tracking": -0.073,
+     "leading": 1,
+     "upper": false,
+     "italic": true,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.12,
+     "top": 786,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "让你的想法， 真正上线。",
+     "words": 2,
+     "lines": 2,
+     "size": 66,
+     "font": "Noto Sans SC"
+    },
+    "headings": [
+     {
+      "text": ".",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Arial",
+      "weight": 750,
+      "tracking": -0.035,
+      "leading": 0,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 37,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "让你的想法， 真正上线。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 66,
+      "vw": 4.6,
+      "font": "Noto Sans SC",
+      "weight": 650,
+      "tracking": -0.045,
+      "leading": 1.24,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 178,
+      "vw": 12.4,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.073,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 786,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "你的下一步， 我来实现。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.053,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 178,
+      "vw": 12.4,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.073,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.12,
+      "top": 1294,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "想法，有了模样。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.053,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 1426,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "03",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 132,
+      "vw": 9.2,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.098,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.08,
+      "top": 2057,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "好合作，从清晰开始。",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.053,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 2158,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把想法， 变成下一件作品。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Noto Sans SC",
+      "weight": 550,
+      "tracking": -0.037,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2609,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans SC",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      22,
+      24,
+      26,
+      34,
+      40,
+      48,
+      66,
+      132,
+      178
+     ],
+     "sizeCount": 20,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 178,
+      "vw": 12.4,
+      "font": "Arial",
+      "text": "01"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 4,
+     "microLabelShare": 0.082,
+     "microSamples": [
+      "GOOD IDEAS. GREAT CODE.",
+      "WHAT I DO / 服务能力",
+      "SELECTED EXPLORATIONS / 作品展示",
+      "HOW WE WORK / 合作流程"
+     ],
+     "upperShare": 0.31,
+     "centerShare": 0.02,
+     "smallText": 14
+    },
+    "eyebrows": [
+     {
+      "text": "WHAT I DO / 服务能力",
+      "above": "你的下一步， 我来实现。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 856
+     },
+     {
+      "text": "SELECTED EXPLORATIONS / 作品展示",
+      "above": "想法，有了模样。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1394
+     },
+     {
+      "text": "HOW WE WORK / 合作流程",
+      "above": "好合作，从清晰开始。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 2126
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 178,
+      "top": 786
+     },
+     {
+      "text": "02",
+      "size": 178,
+      "top": 1294
+     },
+     {
+      "text": "01 / DEMO",
+      "size": 9,
+      "top": 1806
+     },
+     {
+      "text": "02 / DEMO",
+      "size": 9,
+      "top": 1806
+     },
+     {
+      "text": "03 / DEMO",
+      "size": 9,
+      "top": 1806
+     },
+     {
+      "text": "03",
+      "size": 132,
+      "top": 2057
+     },
+     {
+      "text": "01",
+      "size": 15,
+      "top": 2250
+     },
+     {
+      "text": "02",
+      "size": 15,
+      "top": 2250
+     },
+     {
+      "text": "03",
+      "size": 15,
+      "top": 2250
+     },
+     {
+      "text": "04",
+      "size": 15,
+      "top": 2250
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#111111",
+       "top": 16,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#73796f",
+       "share": 0.15
+      },
+      {
+       "color": "#161616",
+       "share": 0.11
+      },
+      {
+       "color": "#62666c",
+       "share": 0.07
+      },
+      {
+       "color": "#62675e",
+       "share": 0.07
+      },
+      {
+       "color": "#797a80",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#d4ff56",
+      "hsl": {
+       "h": 75,
+       "s": 1,
+       "l": 0.67
+      },
+      "fg": "#171b0c"
+     },
+     "lowContrast": [
+      {
+       "text": "MOGUSTACK 是一家独立软件开发工作室。用清晰的沟通和扎实的代码，将你的想",
+       "ratio": 3.8,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#828487",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "明确目标、使用场景与核心功能。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "确认功能范围、开发安排与预算。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "分阶段开发，提供可体验版本并同步进展。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "完成测试、部署与资料交接。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "从使用场景出发，看见产品的实现方向。以下为概念演示项目，呈现设计与开发方向。",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#797a80",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "跳转到主要内容",
+      "聊聊你的项目",
+      "聊聊你的项目"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "section#top.hero → rgba(28, 34, 22, 0.024) 0px 14px 44px 0px",
+      "a.hero-explore → rgba(0, 0, 0, 0.18) 0px 10px 26px 0px, rgba(0, 0, 0, 0.07) 0px 3px 8px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "div.project-card-bottom 357px",
+      "div.project-card-bottom 357px",
+      "div.project-card-bottom 357px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 24,
+     "squareMedia": 1,
+     "roundedMedia": 9,
+     "mediaRadius": 24,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 726
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 0.72
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.2
+     },
+     {
+      "type": "svg",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans sc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2923,
+    "margins": {
+     "left": 139,
+     "right": 160
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero",
+      "tag": "section",
+      "top": 16,
+      "height": 660,
+      "words": 19,
+      "media": 3,
+      "middle": 63,
+      "heading": {
+       "text": "让你的想法，",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 216,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services.section",
+      "tag": "section",
+      "top": 676,
+      "height": 618,
+      "words": 50,
+      "media": 4,
+      "middle": 106,
+      "heading": {
+       "text": "01",
+       "size": 178,
+       "tag": "span"
+      },
+      "left": 125,
+      "right": 160,
+      "textLeft": 125,
+      "textRight": 198,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section",
+      "tag": "section",
+      "top": 1294,
+      "height": 722,
+      "words": 42,
+      "media": 3,
+      "middle": 25,
+      "heading": {
+       "text": "想法，有了模样。",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 160,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#process.process-section.section",
+      "tag": "section",
+      "top": 2016,
+      "height": 531,
+      "words": 25,
+      "media": 0,
+      "middle": 78,
+      "heading": {
+       "text": "03",
+       "size": 132,
+       "tag": "span"
+      },
+      "left": 139,
+      "right": 160,
+      "textLeft": 139,
+      "textRight": 160,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 2547,
+      "height": 263,
+      "words": 5,
+      "media": 1,
+      "middle": 491,
+      "heading": {
+       "text": "把想法，",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 172,
+      "textLeft": 160,
+      "textRight": 172,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "让你的想法， 真正上线。",
+      "size": 66,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 160,
+      "n": 9
+     },
+     {
+      "x": 542,
+      "n": 1
+     },
+     {
+      "x": 923,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.04,
+    "voidBox": {
+     "x": 420,
+     "y": 720,
+     "w": 300,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.86,
+    0.47,
+    0.5
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2793,
+     "screens": 2.7,
+     "words": 157,
+     "img": 3,
+     "video": 0,
+     "canvas": 6,
+     "svg": 41,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "work-dashboard.png",
+      "work-commerce.png",
+      "work-ai.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "01",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 150,
+     "vw": 19.5,
+     "font": "Arial",
+     "weight": 700,
+     "tracking": -0.087,
+     "leading": 1,
+     "upper": false,
+     "italic": true,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.18,
+     "top": 844,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "让你的想法， 真正上线。",
+     "words": 2,
+     "lines": 2,
+     "size": 56,
+     "font": "Noto Sans SC"
+    },
+    "headings": [
+     {
+      "text": ".",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Arial",
+      "weight": 750,
+      "tracking": -0.035,
+      "leading": 0,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 32,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "让你的想法， 真正上线。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 56,
+      "vw": 7.3,
+      "font": "Noto Sans SC",
+      "weight": 650,
+      "tracking": -0.054,
+      "leading": 1.24,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 139,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 150,
+      "vw": 19.5,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.087,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 844,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "你的下一步， 我来实现。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.047,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 960,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 150,
+      "vw": 19.5,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.087,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 1397,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "想法，有了模样。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.047,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 1508,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "03",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 132,
+      "vw": 17.2,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.098,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.16,
+      "top": 1999,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "好合作，从清晰开始。",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.037,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 2096,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把想法， 变成下一件作品。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Noto Sans SC",
+      "weight": 550,
+      "tracking": -0.056,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 2545,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": ".",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Arial",
+      "weight": 750,
+      "tracking": -0.031,
+      "leading": 0,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 2727,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans SC",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      26,
+      32,
+      34,
+      40,
+      56,
+      132,
+      150
+     ],
+     "sizeCount": 20,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 150,
+      "vw": 19.5,
+      "font": "Arial",
+      "text": "01"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 4,
+     "microLabelShare": 0.082,
+     "microSamples": [
+      "GOOD IDEAS. GREAT CODE.",
+      "WHAT I DO / 服务能力",
+      "SELECTED EXPLORATIONS / 作品展示",
+      "HOW WE WORK / 合作流程"
+     ],
+     "upperShare": 0.31,
+     "centerShare": 0.02,
+     "smallText": 25
+    },
+    "eyebrows": [
+     {
+      "text": "WHAT I DO / 服务能力",
+      "above": "你的下一步， 我来实现。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 8,
+      "top": 927
+     },
+     {
+      "text": "SELECTED EXPLORATIONS / 作品展示",
+      "above": "想法，有了模样。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 8,
+      "top": 1480
+     },
+     {
+      "text": "HOW WE WORK / 合作流程",
+      "above": "好合作，从清晰开始。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 8,
+      "top": 2068
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 150,
+      "top": 844
+     },
+     {
+      "text": "02",
+      "size": 150,
+      "top": 1397
+     },
+     {
+      "text": "01 / DEMO",
+      "size": 6,
+      "top": 1765
+     },
+     {
+      "text": "02 / DEMO",
+      "size": 6,
+      "top": 1765
+     },
+     {
+      "text": "03 / DEMO",
+      "size": 6,
+      "top": 1765
+     },
+     {
+      "text": "03",
+      "size": 132,
+      "top": 1999
+     },
+     {
+      "text": "01",
+      "size": 15,
+      "top": 2188
+     },
+     {
+      "text": "02",
+      "size": 15,
+      "top": 2188
+     },
+     {
+      "text": "03",
+      "size": 15,
+      "top": 2188
+     },
+     {
+      "text": "04",
+      "size": 15,
+      "top": 2188
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#111111",
+       "top": 12,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#73796f",
+       "share": 0.15
+      },
+      {
+       "color": "#161616",
+       "share": 0.11
+      },
+      {
+       "color": "#62666c",
+       "share": 0.07
+      },
+      {
+       "color": "#62675e",
+       "share": 0.07
+      },
+      {
+       "color": "#797a80",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#d4ff56",
+      "hsl": {
+       "h": 75,
+       "s": 1,
+       "l": 0.67
+      },
+      "fg": "#171b0c"
+     },
+     "lowContrast": [
+      {
+       "text": "MOGUSTACK 是一家独立软件开发工作室。用清晰的沟通和扎实的代码，将你的想",
+       "ratio": 3.8,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#828487",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "明确目标、使用场景与核心功能。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "确认功能范围、开发安排与预算。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "分阶段开发，提供可体验版本并同步进展。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "完成测试、部署与资料交接。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "从使用场景出发，看见产品的实现方向。以下为概念演示项目，呈现设计与开发方向。",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#797a80",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 1,
+     "withGradient": 1,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "跳转到主要内容",
+      "聊聊你的项目",
+      "聊聊你的项目",
+      "EXPLORE MORE 向下探索"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "section#top.hero → rgba(28, 34, 22, 0.024) 0px 14px 44px 0px",
+      "a.hero-explore → rgba(0, 0, 0, 0.18) 0px 10px 26px 0px, rgba(0, 0, 0, 0.07) 0px 3px 8px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 20,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 19,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 827
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 0.72
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.25
+     },
+     {
+      "type": "svg",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans sc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2793,
+    "margins": {
+     "left": 12,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero",
+      "tag": "section",
+      "top": 12,
+      "height": 760,
+      "words": 19,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "让你的想法，",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services.section",
+      "tag": "section",
+      "top": 772,
+      "height": 563,
+      "words": 50,
+      "media": 4,
+      "middle": 46,
+      "heading": {
+       "text": "01",
+       "size": 150,
+       "tag": "span"
+      },
+      "left": 11,
+      "right": 36,
+      "textLeft": 11,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section",
+      "tag": "section",
+      "top": 1335,
+      "height": 623,
+      "words": 43,
+      "media": 3,
+      "middle": 18,
+      "heading": {
+       "text": "02",
+       "size": 150,
+       "tag": "span"
+      },
+      "left": 11,
+      "right": 36,
+      "textLeft": 11,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#process.process-section.section",
+      "tag": "section",
+      "top": 1958,
+      "height": 527,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "03",
+       "size": 132,
+       "tag": "span"
+      },
+      "left": 15,
+      "right": 36,
+      "textLeft": 15,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 2485,
+      "height": 213,
+      "words": 5,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "把想法，",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 12,
+      "right": 12,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "让你的想法， 真正上线。",
+      "size": 56,
+      "top": 139,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 36,
+      "n": 5
+     },
+     {
+      "x": 48,
+      "n": 4
+     },
+     {
+      "x": 274,
+      "n": 1
+     },
+     {
+      "x": 512,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 11,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.96,
+    0.7,
+    0.59,
+    0.53,
+    0.34,
+    0.6
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4674,
+     "screens": 5.5,
+     "words": 153,
+     "img": 3,
+     "video": 0,
+     "canvas": 6,
+     "svg": 41,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "work-dashboard.png",
+      "work-commerce.png",
+      "work-ai.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "01",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 132,
+     "vw": 33.8,
+     "font": "Arial",
+     "weight": 700,
+     "tracking": -0.083,
+     "leading": 1,
+     "upper": false,
+     "italic": true,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.32,
+     "top": 761,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "让你的想法， 真正上线。",
+     "words": 2,
+     "lines": 2,
+     "size": 45,
+     "font": "Noto Sans SC"
+    },
+    "headings": [
+     {
+      "text": ".",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Arial",
+      "weight": 750,
+      "tracking": -0.029,
+      "leading": 0,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 24,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "让你的想法， 真正上线。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 45,
+      "vw": 11.5,
+      "font": "Noto Sans SC",
+      "weight": 650,
+      "tracking": -0.06,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 132,
+      "vw": 33.8,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.083,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 761,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "你的下一步， 我来实现。",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 37,
+      "vw": 9.5,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.049,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 861,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 132,
+      "vw": 33.8,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.083,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 1707,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "想法，有了模样。",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 33,
+      "vw": 8.5,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1807,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "03",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 102,
+      "vw": 26.2,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.108,
+      "leading": 1,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 3403,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "好合作，从清晰开始。",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Noto Sans SC",
+      "weight": 600,
+      "tracking": -0.06,
+      "leading": 1.35,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3486,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "把想法， 变成下一件作品。",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Noto Sans SC",
+      "weight": 550,
+      "tracking": -0.047,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 4266,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": ".",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Arial",
+      "weight": 750,
+      "tracking": -0.038,
+      "leading": 0,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.02,
+      "top": 4559,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Noto Sans SC",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Arial",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      26,
+      30,
+      33,
+      34,
+      37,
+      45,
+      102,
+      132
+     ],
+     "sizeCount": 22,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 132,
+      "vw": 33.8,
+      "font": "Arial",
+      "text": "01"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 4,
+     "microLabelShare": 0.084,
+     "microSamples": [
+      "GOOD IDEAS. GREAT CODE.",
+      "WHAT I DO / 服务能力",
+      "SELECTED EXPLORATIONS / 作品展示",
+      "HOW WE WORK / 合作流程"
+     ],
+     "upperShare": 0.31,
+     "centerShare": 0.02,
+     "smallText": 25
+    },
+    "eyebrows": [
+     {
+      "text": "WHAT I DO / 服务能力",
+      "above": "你的下一步， 我来实现。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 8,
+      "top": 833
+     },
+     {
+      "text": "SELECTED EXPLORATIONS / 作品展示",
+      "above": "想法，有了模样。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 8,
+      "top": 1779
+     },
+     {
+      "text": "HOW WE WORK / 合作流程",
+      "above": "好合作，从清晰开始。",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 8,
+      "top": 3458
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 132,
+      "top": 761
+     },
+     {
+      "text": "02",
+      "size": 132,
+      "top": 1707
+     },
+     {
+      "text": "01 / DEMO",
+      "size": 8,
+      "top": 2191
+     },
+     {
+      "text": "02 / DEMO",
+      "size": 8,
+      "top": 2677
+     },
+     {
+      "text": "03 / DEMO",
+      "size": 8,
+      "top": 3164
+     },
+     {
+      "text": "03",
+      "size": 102,
+      "top": 3403
+     },
+     {
+      "text": "01",
+      "size": 15,
+      "top": 3622
+     },
+     {
+      "text": "02",
+      "size": 15,
+      "top": 3766
+     },
+     {
+      "text": "03",
+      "size": 15,
+      "top": 3910
+     },
+     {
+      "text": "04",
+      "size": 15,
+      "top": 4054
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#111111",
+       "top": 8,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#73796f",
+       "share": 0.16
+      },
+      {
+       "color": "#161616",
+       "share": 0.11
+      },
+      {
+       "color": "#62666c",
+       "share": 0.08
+      },
+      {
+       "color": "#62675e",
+       "share": 0.07
+      },
+      {
+       "color": "#797a80",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#d4ff56",
+      "hsl": {
+       "h": 75,
+       "s": 1,
+       "l": 0.67
+      },
+      "fg": "#171b0c"
+     },
+     "lowContrast": [
+      {
+       "text": "MOGUSTACK 是一家独立软件开发工作室。用清晰的沟通和扎实的代码，将你的想",
+       "ratio": 3.8,
+       "need": 4.5,
+       "size": 12,
+       "fg": "#828487",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "明确目标、使用场景与核心功能。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "确认功能范围、开发安排与预算。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "分阶段开发，提供可体验版本并同步进展。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "完成测试、部署与资料交接。",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#797e75",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "从使用场景出发，看见产品的实现方向。以下为概念演示项目，呈现设计与开发方向。",
+       "ratio": 4.3,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#797a80",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 47,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "跳转到主要内容",
+      "聊聊你的项目"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "section#top.hero → rgba(28, 34, 22, 0.02) 0px 10px 30px 0px",
+      "a.hero-explore → rgba(0, 0, 0, 0.16) 0px 7px 20px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "div.project-card-bottom 342px",
+      "div.project-card-bottom 342px",
+      "div.project-card-bottom 342px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 19,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 18,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1140
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 0.87
+     },
+     {
+      "type": "canvas",
+      "ratio": 0.31
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "noto sans sc"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4674,
+    "margins": {
+     "left": 8,
+     "right": 8
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero",
+      "tag": "section",
+      "top": 8,
+      "height": 770,
+      "words": 15,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "让你的想法，",
+       "size": 45,
+       "tag": "h1"
+      },
+      "left": 8,
+      "right": 8,
+      "textLeft": 32,
+      "textRight": 104,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services.section",
+      "tag": "section",
+      "top": 778,
+      "height": 878,
+      "words": 49,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "你的下一步，",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.section-heading",
+      "tag": "div",
+      "top": 1779,
+      "height": 137,
+      "words": 7,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "想法，有了模样。",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 116,
+      "textLeft": 24,
+      "textRight": 116,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "button.project-card",
+      "tag": "button",
+      "top": 1945,
+      "height": 450,
+      "words": 11,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "SaaS 数据管理平台",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "button.project-card",
+      "tag": "button",
+      "top": 2431,
+      "height": 450,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "生活方式电商小程序",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "button.project-card",
+      "tag": "button",
+      "top": 2918,
+      "height": 450,
+      "words": 12,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "AI 智能工作助手",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#process.process-section.section",
+      "tag": "section",
+      "top": 3368,
+      "height": 860,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "03",
+       "size": 102,
+       "tag": "span"
+      },
+      "left": 15,
+      "right": 36,
+      "textLeft": 15,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section",
+      "tag": "section",
+      "top": 4228,
+      "height": 309,
+      "words": 5,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "把想法，",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 8,
+      "right": 8,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer.content-width",
+      "tag": "footer",
+      "top": 4537,
+      "height": 137,
+      "words": 7,
+      "media": 0,
+      "middle": 188,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "让你的想法， 真正上线。",
+      "size": 45,
+      "top": 118,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 11
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 12,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "3 eyebrow/kicker label(s) above headings: \"WHAT I DO / 服务能力\" above \"你的下一步， 我来实现。\"; \"SELECTED EXPLORATIONS / 作品展示\" above \"想法，有了模样。\"; \"HOW WE WORK / 合作流程\" above \"好合作，从清晰开始。\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"01 / DEMO\", \"02 / DEMO\", \"03 / DEMO\", \"03\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "4 tiny uppercase letter-spaced labels (e.g. \"GOOD IDEAS. GREAT CODE.\", \"WHAT I DO / 服务能力\", \"SELECTED EXPLORATIONS / 作品展示\", \"HOW WE WORK / 合作流程\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: section#top.hero → rgba(28, 34, 22, 0.024) 0px 14px 44px 0px | a.hero-explore → rgba(0, 0, 0, 0.18) 0px 10px 26px 0px, rgba(0, 0, 0, 0.07) 0px 3px 8px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "3 thin rule(s)/divider line(s): div.project-card-bottom 357px | div.project-card-bottom 357px | div.project-card-bottom 357px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (4 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"MOGUSTACK 是一家独立软件开发工作室。用清晰的沟通和扎实的代码，将你的想\" 3.8:1 needs 4.5:1; \"明确目标、使用场景与核心功能。\" 4.2:1 needs 4.5:1; \"确认功能范围、开发安排与预算。\" 4.2:1 needs 4.5:1; \"分阶段开发，提供可体验版本并同步进展。\" 4.2:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "20 different font sizes (8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 22, 24, 26, 34, 40, 48, 66, 132, 178).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "14 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 139px on the left, 160px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"让你的想法， 真正上线。\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 768,
+   "message": "Buttons with gradient fill and shadow/glow.",
+   "fix": "Flat fill, one colour."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\code\\jiedan\\.taste-skill\\review-public\\desktop-fold.jpg",
+   "pages": [
+    "D:\\code\\jiedan\\.taste-skill\\review-public\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\code\\jiedan\\.taste-skill\\review-public\\tablet-fold.jpg",
+   "pages": [
+    "D:\\code\\jiedan\\.taste-skill\\review-public\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\code\\jiedan\\.taste-skill\\review-public\\mobile-fold.jpg",
+   "pages": [
+    "D:\\code\\jiedan\\.taste-skill\\review-public\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

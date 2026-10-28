@@ -1,0 +1,57 @@
+:root {
+  --admin-text: #25301e;
+  --admin-text-secondary: #4e5d41;
+  --admin-text-muted: #5e6b52;
+  --admin-action: #465f2c;
+  --admin-action-hover: #31471c;
+  --admin-surface: #fff;
+  --admin-surface-subtle: #f5f7f1;
+  --admin-surface-selected: #edf3e5;
+  --admin-border: #e2e8d9;
+  --admin-accent: #94ba59;
+  --admin-focus: #6c862c;
+  --admin-radius: 10px;
+}
+.admin-shell .admin-text-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px;
+  border: 0;
+  border-radius: var(--admin-radius);
+  background: transparent;
+  color: var(--admin-action);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: start;
+  white-space: normal;
+  text-underline-offset: 4px;
+}
+.admin-shell .admin-text-link:hover { color: var(--admin-action-hover); background: var(--admin-surface-selected); }
+.admin-shell :is(button,a,input,select,textarea):focus-visible { outline: 2px solid var(--admin-focus); outline-offset: 3px; }
+.admin-page-heading h1:focus { outline: none; }
+.admin-dialog .admin-dialog-heading .admin-icon-button { min-width: 44px; min-height: 44px; }
+.admin-shell .admin-page-heading > div > span,
+.admin-shell .admin-panel-heading p,
+.admin-dialog .admin-dialog-kicker,
+.admin-dialog .admin-form label > small,
+.admin-shell .admin-empty,
+.admin-shell .admin-pagination,
+.admin-shell .admin-stat > span { color: var(--admin-text-muted); }
+.admin-dialog .admin-form input::placeholder,
+.admin-dialog .admin-form textarea::placeholder,
+.admin-shell .biz-toolbar input::placeholder { color: var(--admin-text-muted); opacity: 1; }
+.admin-discard-description { color: var(--admin-text-secondary); font-size: 14px; line-height: 1.8; }
+.admin-sidebar-caption { color: #b7c4a4; }
+.admin-shell .biz-help { color: var(--admin-text-secondary); }
+.admin-dialog .admin-form-actions { gap: 12px; }
+@media (max-width: 640px) {
+  .admin-shell .admin-text-link { font-size: 14px; }
+  .admin-dialog :is(input,textarea,select) { font-size: 16px; }
+  .project-block-heading { flex-wrap: wrap; }
+  .project-actions { gap: 8px; }
+}
